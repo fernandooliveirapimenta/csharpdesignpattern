@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Criacionais\" />
+    <None Remove="Criacionais\Singleton\" />
+    <None Remove="Criacionais\SingletonParaThreads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Criacionais\" />
+    <Folder Include="Criacionais\Singleton\" />
+    <Folder Include="Criacionais\SingletonParaThreads\" />
+  </ItemGroup>
+</Project>
