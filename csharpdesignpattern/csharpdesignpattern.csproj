@@ -8,10 +8,14 @@
     <None Remove="Criacionais\" />
     <None Remove="Criacionais\Singleton\" />
     <None Remove="Criacionais\SingletonParaThreads\" />
+    <None Remove="Comportamentais\" />
+    <None Remove="Comportamentais\Strategy\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Criacionais\" />
     <Folder Include="Criacionais\Singleton\" />
     <Folder Include="Criacionais\SingletonParaThreads\" />
+    <Folder Include="Comportamentais\" />
+    <Folder Include="Comportamentais\Strategy\" />
   </ItemGroup>
 </Project>
