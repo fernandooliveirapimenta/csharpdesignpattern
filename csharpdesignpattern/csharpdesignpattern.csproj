@@ -10,6 +10,8 @@
     <None Remove="Criacionais\SingletonParaThreads\" />
     <None Remove="Comportamentais\" />
     <None Remove="Comportamentais\Strategy\" />
+    <None Remove="Estruturais\" />
+    <None Remove="Estruturais\Bridge\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Criacionais\" />
@@ -17,5 +19,7 @@
     <Folder Include="Criacionais\SingletonParaThreads\" />
     <Folder Include="Comportamentais\" />
     <Folder Include="Comportamentais\Strategy\" />
+    <Folder Include="Estruturais\" />
+    <Folder Include="Estruturais\Bridge\" />
   </ItemGroup>
 </Project>
