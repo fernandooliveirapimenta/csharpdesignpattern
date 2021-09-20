@@ -12,6 +12,7 @@
     <None Remove="Comportamentais\Strategy\" />
     <None Remove="Estruturais\" />
     <None Remove="Estruturais\Bridge\" />
+    <None Remove="Criacionais\Prototype\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Criacionais\" />
@@ -21,5 +22,6 @@
     <Folder Include="Comportamentais\Strategy\" />
     <Folder Include="Estruturais\" />
     <Folder Include="Estruturais\Bridge\" />
+    <Folder Include="Criacionais\Prototype\" />
   </ItemGroup>
 </Project>

@@ -3,21 +3,21 @@ namespace csharpdesignpattern.Estruturais.Bridge
 {
     public class Teste
     {
-        static void Main(string[] args)
-        {
+     //   static void Main(string[] args)
+     //   {
 
-           Cliente cliente = new Cliente();
+     //      Cliente cliente = new Cliente();
 
-           var implA =  new ImplementacaoConcretaA();
-           Abstracao abstracao = new Abstracao(implementacao: implA);
-           cliente.CodigoDoCliente(abstracao);
+     //      var implA =  new ImplementacaoConcretaA();
+     //      Abstracao abstracao = new Abstracao(implementacao: implA);
+     //      cliente.CodigoDoCliente(abstracao);
 
-           Console.WriteLine();
+     //      Console.WriteLine();
 
 
-           var implB =  new ImplementacaoConcretaB();
-           abstracao = new ExtendendoFuncionalidadesDaAbstracao(implementacao: implB);
-           cliente.CodigoDoCliente(abstracao);
-	    }
+     //      var implB =  new ImplementacaoConcretaB();
+     //      abstracao = new ExtendendoFuncionalidadesDaAbstracao(implementacao: implB);
+     //      cliente.CodigoDoCliente(abstracao);
+	    //}
     }
 }
